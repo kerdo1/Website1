@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</head>
+<style>
+    #padding{
+        padding-left: 30px;
+    }
+    #backround{
+        background-color: #c0c0c2;
+    }
+      .carousel-item{
+          height:51rem;
+          background: #777;
+          position: relative;
+      }
+      .container{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 50px;
+      }
+
+</style>
+<body id="backround">
+        <nav id="padding" class="navbar navbar-expand-sm bg-light navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="https://t4.ftcdn.net/jpg/03/55/80/97/360_F_355809769_uRdjl1BRKM1PFP44m7H886TbGvu1gnWQ.jpg" alt="" style="width: 70px;">
+                Daves Forge   
+            </a>
+            <ul class="navbar-nav" >
+              <li class="nav-item active" >
+                <a class="nav-link text-decoration-underline" href="#" style="font-size: 20px;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+            </ul>
+          </nav>
+
+<!-- CAROUSEL-->
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <!-- Add more buttons if needed for additional slides -->
+  </div>
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/0_typical_smithy_in_finland.JPG/1200px-0_typical_smithy_in_finland.JPG" class="d-block w-100" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-start">Welcome to Dave's Forge – your premier destination for finely crafted medieval weapons!</h2>
+              <p class="text-start">At Dave's Forge, we uphold the timeless tradition of blacksmithing, where raw materials are meticulously transformed into works of art. Nestled in the heart of the countryside, our forge serves as the beating heart of our operation, where flames dance and hammers strike to bring medieval dreams to life.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="./weapons.jpg" class="d-block w-100" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-start">Our Proud Work, Weapons!</h2>
+              <p class="text-start">Step into a world where history meets craftsmanship. Our collection of medieval weapons embodies the spirit of a bygone era, meticulously hand-forged by our skilled artisans. From mighty swords to fearsome axes, each weapon is a testament to our dedication to authenticity and quality.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.wired.com/photos/65e88a62288be2b9778a4d70/master/w_1600%2Cc_limit/blacksmith-001.jpg" class="d-block w-100" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h2 class="text-start">Meet Dave</h2>
+            <p class="text-start">Dave, the master blacksmith behind it all, brings decades of experience and a passion for the craft to every piece created at the forge. His unwavering commitment to excellence ensures that each weapon bearing the Dave's Forge name is a masterpiece worthy of admiration.</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://t4.ftcdn.net/jpg/03/47/26/95/360_F_347269590_Hovjy55LbPPTlXZyz06V4wmUkedoKzbR.jpg" class="d-block w-100" alt="Fourth slide">
+      <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-start">The History Behind the Forge</h2>
+          <p class="text-start">Established in 1980, Dave's Forge has been a cornerstone of the community for generations. Our rich history is woven into every piece we create, honoring the legacy of those who came before us while forging a path toward the future of craftsmanship.</p>
+      </div>
+  </div>
+
+  <!-- Add more carousel items as needed -->
+  </div>
+  <!-- Previous button -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+  </button>
+
+  <!-- Next button -->
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+       <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted fixed-bottom">
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Daves Forge</a>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

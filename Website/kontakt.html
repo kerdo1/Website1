@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/bootstrap/dist/css/js/bootstrap.js"></script>
+</head>
+<style>
+    #padding{
+        padding-left: 30px;
+    }
+    #backround{
+        background-color: #c0c0c2;
+    }
+</style>
+<body id="backround">
+  <!--NAVBAR-->
+        <nav id="padding" class="navbar navbar-expand-sm bg-light navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="https://t4.ftcdn.net/jpg/03/55/80/97/360_F_355809769_uRdjl1BRKM1PFP44m7H886TbGvu1gnWQ.jpg" alt="" style="width: 70px;">
+                Daves ForgeS  
+            </a>
+            <ul class="navbar-nav" >
+              <li class="nav-item active" >
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Products</a>
+              </li>
+              <li class="nav-item text-decoration-underline" style="font-size: 20px;">
+                <a class="nav-link" href="kontakt.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html" style="font-size: 20px;">Login</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="container mt-5">
+            <h1>Contact us!</h1>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="lasttName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lasttName" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="emailInfo" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="emailInfo" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="phoneNumber" placeholder="+372 56 123456">
+                </div>
+                <div class="col-md-12">
+                    <label for="comments" class="form-label">Suggestions, feedback, questions?</label>
+                    <textarea class="form-control" id="comments" cols="10" rows="5"></textarea>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col-md-4 map-area">
+                    <h2>Heres our location at Kurtna</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38838.06508501405!2d24.69856519730559!3d59.22981522347462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692c6c6b97fbf0f%3A0xa00b36f6fe58a80!2sKurtna%2C%2075518%20Harju%20maakond!5e0!3m2!1set!2see!4v1711830848611!5m2!1set!2see" width="400"height="250" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </form>
+          </div>
+       <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted fixed-bottom">
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Daves Forge</a>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
